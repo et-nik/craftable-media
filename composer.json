@@ -1,5 +1,5 @@
 {
-    "name": "brackets/media",
+    "name": "craftable/media",
     "description": "Associate files with Eloquent models",
     "keywords": [
         "media",
@@ -33,7 +33,7 @@
     "require": {
         "php" : "^7.0",
         "illuminate/support": "5.5.*|5.6.*|5.7.*",
-        "brackets/admin-auth": "^3.0",
+        "craftable/admin-auth": "^3.0",
         "spatie/laravel-medialibrary": "^7.0"
     },
     "require-dev": {
