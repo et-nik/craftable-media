@@ -8,6 +8,6 @@ class ThumbsDoesNotExists extends Exception
 {
     public static function thumbsConversionNotFound()
     {
-        return new static(trans('brackets/media::media.exceptions.thumbs_does_not_exists'));
+        return new static(trans('craftable/media::media.exceptions.thumbs_does_not_exists'));
     }
 }

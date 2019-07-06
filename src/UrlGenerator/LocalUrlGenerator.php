@@ -10,7 +10,7 @@ class LocalUrlGenerator extends SpatieLocalUrlGenerator {
 		if ( $this->media->disk == 'media_private' ) {
 			$url = $this->getPathRelativeToRoot();
 
-			return route( 'brackets/media::view', [], false ) . '?path=' . $this->makeCompatibleForNonUnixHosts( $url );
+			return route( 'craftable/media::view', [], false ) . '?path=' . $this->makeCompatibleForNonUnixHosts( $url );
 		} else {
 			$url = $this->getBaseMediaDirectory() . '/' . $this->getPathRelativeToRoot();
 
